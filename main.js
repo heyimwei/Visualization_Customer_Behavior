@@ -66,7 +66,7 @@ parseData();
 
 
 function parseData(data) {
-    d3.csv("preprocessed_shopping_trends.csv").then(function (data) {
+    d3.csv("data/preprocessed_shopping_trends.csv").then(function (data) {
         data.forEach((d, i) => {
             d.Age = Number(d.Age);
         });
@@ -85,7 +85,7 @@ function parseData(data) {
 
 //function for filtering updated data
 function UpDateData() {
-    d3.csv("preprocessed_shopping_trends.csv").then(function (data) {
+    d3.csv("data/preprocessed_shopping_trends.csv").then(function (data) {
         //initial
 
         data.forEach((d, i) => {
