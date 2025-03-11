@@ -20,6 +20,13 @@
 
 ![alt text](Screenshot.png)
 
+## 互動方式
+
+- **堆疊直方圖**：滑鼠拖拉可框選年齡範圍；點擊圖例「Male 或 Female」可切換顯示方式。
+- **圓餅圖**：點擊圖例可針對指定類別篩選，其他圖表對應更新。
+- **熱圖**：顯示不同支付方式與物流方式交叉的使用程度。
+- **折線圖**：顯示品項在四季的銷售變化，滑鼠移動到資料點可浮出提示 (Tooltip)。
+
 ## 資料來源
 - [Kaggle - Customer Shopping Trends Dataset](https://www.kaggle.com/datasets/iamsouravbanerjee/customer-shopping-trends-dataset)
 - 檔案說明：
@@ -33,14 +40,7 @@
 - **pre_processing.ipynb**：資料預處理的 Python 筆記本 (清理、轉換、篩選、統計等)  
 - **data資料夾**：放置原始及預處理後的 CSV 檔  
 
-## 互動方式**
-
-- **堆疊直方圖**：滑鼠拖拉可框選年齡範圍；點擊圖例「Male 或 Female」可切換顯示方式。
-- **圓餅圖**：點擊圖例可針對指定類別篩選，其他圖表對應更新。
-- **熱圖**：顯示不同支付方式與物流方式交叉的使用程度。
-- **折線圖**：顯示品項在四季的銷售變化，滑鼠移動到資料點可浮出提示 (Tooltip)。
-
 ## 使用技術
 - **D3.js** (版本 v5)
 - **HTML / CSS / JavaScript**
-- **Python** (資料預處理，可選)
+- **Python** (資料預處理)
