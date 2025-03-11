@@ -1,11 +1,11 @@
-# Visualization of Customer Behavior
+# 客戶⾏為視覺化：數據驅動業務決策
 
 使用 D3.js 分析與視覺化不同客群的購物行為，以協助商家做出更有效的數據導向決策。
 
 ## 專案簡介
 本專案透過一組包含約 3900 位顧客購物資訊的資料集，探討不同年齡層、性別顧客的購買行為模式，並分析購買品項、支付方式、配送方式以及不同季節的熱門商品等。希望藉由互動式視覺化，協助商家快速觀察並做出行銷與庫存管理的調整。
 
-## 功能特色
+## 功能
 1. **堆疊直方圖 (Stacked Histogram)**
    - 展示不同年齡區間的購買人數，並可區分男性與女性的購買佔比。支援框選 (Brush) 功能，可縮小篩選範圍。
 
@@ -17,6 +17,8 @@
 
 4. **折線圖 (Line Chart)**
    - 觀察各商品在不同季節 (Spring, Summer, Fall, Winter) 的銷售趨勢，了解隨季節變化的熱賣品項。
+
+![alt text](Screenshot.png)
 
 ## 資料來源
 - [Kaggle - Customer Shopping Trends Dataset](https://www.kaggle.com/datasets/iamsouravbanerjee/customer-shopping-trends-dataset)
